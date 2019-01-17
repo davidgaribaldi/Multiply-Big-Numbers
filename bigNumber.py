@@ -35,7 +35,7 @@ def Lucky13(big_number, str_number):
             start += 1
             end += 1
             if end == 1001:
-                print("The winning range of numbers was", winning_range, "which summed up to", high_range)
+                print("The winning range of numbers was", winning_range, "which created a product of", high_range)
                 return winning_range
             
 Lucky13(big_number, str_number)
